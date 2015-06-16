@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchedulerData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.miami.edu/cis324/xml/scheduling" xsi:schemaLocation="http://www.miami.edu/cis324/xml/scheduling scheduling.xsd ">
+	<PatientList>
+		<Patient id="1" ssn="123-45-6789">
+			<email>jlennon@beatles.com</email>
+			<dob>05/01/1951</dob>
+			<name>John Lennon</name></Patient>
+		<Patient id="2" ssn="333-22-1123">
+			<email>pmccartney@another.edu</email>
+			<dob>06/23/1964</dob>
+			<name>Paul McCartney</name></Patient>
+		<Patient id="3" ssn="567-39-9282">
+			<email>george@something.com</email>
+			<dob>09/05/1955</dob>
+			<name>George Harrison</name></Patient>
+		<Patient id="4" ssn="888-88-8888">
+			<email>drummer@beatles.org</email>
+			<dob>02/28/2001</dob>
+			<name>Ringo Starr</name></Patient></PatientList>
+	<DoctorList>
+		<Doctor id="1" ssn="445-25-3382">
+			<name>John Smith</name>
+			<email>jsmith@doc.com</email>
+			<dob>06/03/1941</dob>
+			<Specialty>GENERAL_MEDICINE</Specialty></Doctor>
+		<Doctor id="2" ssn="582-10-9983">
+			<name>Jane Doe</name>
+			<email>jdoe@doc.com</email>
+			<dob>10/10/1950</dob>
+			<Specialty>PEDIATRICS</Specialty></Doctor>
+		<Doctor id="3" ssn="180-38-0038">
+			<name>Mary Jones</name>
+			<email>mjones@doc.com</email>
+			<dob>12/25/1965</dob>
+			<Specialty>GENERAL_MEDICINE</Specialty></Doctor>
+		<Doctor id="4" ssn="343-34-9875">
+			<name>Beth Garcia</name>
+			<email>bgarcia@doc.com</email>
+			<dob>07/19/1964</dob>
+			<Specialty>ONCOLOGY</Specialty></Doctor></DoctorList><VisitList>
+		<Visit>
+			<Date>11 May 2015</Date>
+			<Visitor>123-45-6789</Visitor>
+			<Host>445-25-3382</Host></Visit>
+		<Visit>
+			<Date>12 May 2015</Date>
+			<Visitor>123-45-6789</Visitor>
+			<Host>445-25-3382</Host></Visit>
+		<Visit>
+			<Date>14 May 2015</Date>
+			<Visitor>888-88-8888</Visitor>
+			<Host>582-10-9983</Host></Visit>
+		<Visit>
+			<Date>09 May 2015</Date>
+			<Visitor>333-22-1123</Visitor>
+			<Host>180-38-0038</Host></Visit>
+		<Visit>
+			<Date>09 May 2015</Date>
+			<Visitor>567-39-9282</Visitor>
+			<Host>343-34-9875</Host></Visit>
+		<Visit>
+			<Date>13 May 2015</Date>
+			<Visitor>888-88-8888</Visitor>
+			<Host>445-25-3382</Host></Visit>
+		<Visit>
+			<Date>13 May 2015</Date>
+			<Visitor>567-39-9282</Visitor>
+			<Host>582-10-9983</Host></Visit></VisitList>
+	</SchedulerData>

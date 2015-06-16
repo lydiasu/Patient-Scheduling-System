@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PatientList xmlns="http://www.miami.edu/cis324/xml/scheduling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.miami.edu/cis324/xml/scheduling scheduling.xsd">
+	<Patient id="1" ssn="123-45-6789">
+	<name>John Lennon</name>
+		<email>jlennon@beatles.com</email>
+		<dob>5/1/51 12:00 AM</dob>
+	</Patient>
+	<Patient id="2" ssn="333-22-1123">
+	<name>Paul McCartney</name>
+		<email>pmccartney@another.edu</email>
+		<dob>6/23/64 12:00 AM</dob>
+	</Patient>
+	<Patient id="3" ssn="567-39-9282">
+	<name>George Harrison</name>
+		<email>george@something.com</email>
+		<dob>9/5/55 12:00 AM</dob>
+	</Patient>
+	<Patient id="4" ssn="888-88-8888">
+	<name>Ringo Starr</name>
+		<email>drummer@beatles.org</email>
+		<dob>2/28/01 12:00 AM</dob>
+	</Patient>
+</PatientList>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchedulerData xmlns="http://www.miami.edu/cis324/xml/scheduling" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.miami.edu/cis324/xml/scheduling scheduling.xsd">
+<PatientList>	<Patient id="1" ssn="123-45-6789">
+	<name>John Lennon</name>
+		<email>jlennon@beatles.com</email>
+		<dob>5/1/51 12:00 AM</dob>
+	</Patient>
+	<Patient id="2" ssn="333-22-1123">
+	<name>Paul McCartney</name>
+		<email>pmccartney@another.edu</email>
+		<dob>6/23/64 12:00 AM</dob>
+	</Patient>
+	<Patient id="3" ssn="567-39-9282">
+	<name>George Harrison</name>
+		<email>george@something.com</email>
+		<dob>9/5/55 12:00 AM</dob>
+	</Patient>
+	<Patient id="4" ssn="888-88-8888">
+	<name>Ringo Starr</name>
+		<email>drummer@beatles.org</email>
+		<dob>2/28/01 12:00 AM</dob>
+	</Patient>
+	<Doctor id="1" ssn="445-25-3382">
+	<name>John Smith</name>
+		<email>jsmith@doc.com</email>
+		<dob>6/3/41 12:00 AM</dob>
+	</Doctor>
+	<Doctor id="2" ssn="582-10-9983">
+	<name>Jane Doe</name>
+		<email>jdoe@doc.com</email>
+		<dob>10/10/50 12:00 AM</dob>
+	</Doctor>
+	<Doctor id="3" ssn="180-38-0038">
+	<name>Mary Jones</name>
+		<email>mjones@doc.com</email>
+		<dob>12/25/65 12:00 AM</dob>
+	</Doctor>
+	<Doctor id="4" ssn="343-34-9875">
+	<name>Beth Garcia
+Garcia</name>
+		<email>bgarcia@doc.com</email>
+		<dob>7/19/64 12:00 AM</dob>
+	</Doctor>
+	<Visit>	<Host>Mary Jones</Host>
+		<Visitor>Paul McCartney</Visitor>
+		<Date>5/9/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>Beth Garcia
+Garcia</Host>
+		<Visitor>George Harrison</Visitor>
+		<Date>5/9/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>John Smith</Host>
+		<Visitor>John Lennon</Visitor>
+		<Date>5/11/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>John Smith</Host>
+		<Visitor>John Lennon</Visitor>
+		<Date>5/12/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>John Smith</Host>
+		<Visitor>Ringo Starr</Visitor>
+		<Date>5/13/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>Jane Doe</Host>
+		<Visitor>George Harrison</Visitor>
+		<Date>5/13/15 12:00 AM</Date>
+	</Visit>
+	<Visit>	<Host>Jane Doe</Host>
+		<Visitor>Ringo Starr</Visitor>
+		<Date>5/14/15 12:00 AM</Date>
+	</Visit>
+</PatientList></SchedulerData>
